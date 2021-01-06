@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ "assets/css/main.css" | relative_url }}">
+  </head>
+  <body>
+    {% for section in page.sections %}
+      <section id="{{ section[0] }}">
+        <div class="container">
+          <div class="row">
+            <div class="py-5 py-sm-7 col-md-8 col-lg-6 {% cycle '', 'offset-md-4 offset-lg-6' %}">
+              {{ section[1] | markdownify }}
+            </div>
+          </div>
+      </section>
+    {% endfor %}
+
+    <footer class="py-4 py-sm-6">Made with ❤️ by <a href="https://twitter.com/s1gtrap">@s1gtrap</a></footer>
+  </body>
+</html>
