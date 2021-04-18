@@ -12,12 +12,12 @@ sections:
   what-i-do: |
     ## What I do
 
-    Studies aside, currently in gear with <https://trifork.com/>, mostly toying with TypeScript, with everything from Kubernetes and Splunk sprinkled in on the side.
+    Studies aside, currently in gear with <https://trifork.com/>, working mostly with TypeScript, with everything from Kubernetes to Splunk sprinkled in on the side.
 
   what-ive-done: |
     ## What I've done
 
-    One project of note is <https://disassemb.ly/>, an x86 disassembler written in Rust compiled to WebAssembly and published on GitHub Pages.
+    One project of note is <https://disassemb.ly/> -- an x86 disassembler meant to illustrate the assembly/machine code translation -- although written in Rust, it targets everything from natively built terminal applications to WebAssembly fueled browser interfaces.
 
     Although limited, you're welcome to check me out on GitHub [@s1gtrap](https://github.com/s1gtrap).
 

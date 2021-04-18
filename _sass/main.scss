@@ -19,9 +19,6 @@ $font-family-base: 'Lora', serif;
 
 $headings-font-family: 'Inconsolata', monospace;
 
-$link-color: shift-color($link-color, -30%);
-$link-hover-color: shift-color($link-hover-color, -30%);
-
 $box-shadow: rgba(0, 0, 0, 0.1);
 
 section {
@@ -51,14 +48,14 @@ footer {
   text-align: center;
 }
 
-/*section:nth-child(2n), footer {
+section:nth-child(2n), footer {
   a {
-    color: shift-color(#fff, 10%);
+    color: shift-color($link-color, -20%);
 
     &:hover {
-      color: shift-color(#fff, 20%);
+      color: shift-color($link-hover-color, -20%);
     }
   }
-}*/
+}
 
 @import "bootstrap/scss/bootstrap";
