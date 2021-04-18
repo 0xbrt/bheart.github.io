@@ -17,7 +17,7 @@ $font-family-base: 'Lora', serif;
 $headings-font-family: 'Inconsolata', monospace;
 
 $link-color: #0d6efd;
-$link-hover-color: #{shift-color($link-color, 20%)};
+$link-hover-color: shift-color($link-color, 20%);
 
 $box-shadow: rgba(0, 0, 0, 0.1);
 
@@ -57,7 +57,7 @@ section:nth-child(2n), footer {
     color: lighten($link-color, 30%);
 
     &:hover {
-      color: lighten($link-hover-color, 30%);
+      color: lighten($link-color, 30%);
     }
   }
 }
