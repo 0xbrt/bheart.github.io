@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Lora&display=swap');
 
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer / 4,
+  2: $spacer / 2,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 5,
+  7: $spacer * 10,
+);
+
 $font-family-base: 'Lora', serif;
 
 $headings-font-family: 'Inconsolata', monospace;
