@@ -21,6 +21,23 @@ $headings-font-family: 'Inconsolata', monospace;
 
 $box-shadow: rgba(0, 0, 0, 0.1);
 
+.hero {
+  display: flex;
+  min-height: 95vh;
+  background: #111017;
+  color: #fefefe;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 16px solid rgba(255, 255, 255, 0.75);
+    animation: typewriter 2s steps(20, end) 1s 1 normal both,
+      cursor 800ms steps(1, end) infinite;
+  }
+}
+
 section {
   background: url($baseurl + "/assets/img/triangles.png") bottom right no-repeat;
   box-shadow: inset 0 8px 16px -8px $box-shadow,
