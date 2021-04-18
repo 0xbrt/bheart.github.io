@@ -35,6 +35,23 @@ $box-shadow: rgba(0, 0, 0, 0.1);
     border-right: 16px solid rgba(255, 255, 255, 0.75);
     animation: typewriter 2s steps(20, end) 1s 1 normal both,
       cursor 800ms steps(1, end) infinite;
+@keyframes typewriter {
+  from {
+    width: 32px;
+  }
+  to {
+    width: 352px;
+  }
+}
+
+@keyframes cursor {
+  from, to {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  50% {
+    border-right-color: transparent;
+  }
+}
   }
 }
 
