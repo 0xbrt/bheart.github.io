@@ -19,8 +19,8 @@ $font-family-base: 'Lora', serif;
 
 $headings-font-family: 'Inconsolata', monospace;
 
-$link-color: shift-color($link-color, 20%);
-$link-hover-color: shift-color($link-hover-color, 20%);
+$link-color: shift-color($link-color, -20%);
+$link-hover-color: shift-color($link-hover-color, -20%);
 
 $box-shadow: rgba(0, 0, 0, 0.1);
 
