@@ -25,10 +25,6 @@ section {
   background: url($baseurl + "/assets/img/triangles.png") bottom right no-repeat;
   box-shadow: inset 0 8px 16px -8px $box-shadow,
     inset 0 -8px 16px -8px $box-shadow;
-
-  a {
-    color: red;
-  }
 }
 
 section:nth-child(4n) {
