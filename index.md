@@ -17,7 +17,7 @@ sections:
   what-ive-done: |
     ## What I've done
 
-    One project of note is <https://disassemb.ly/>, an x86 disassembler written in Rust compiled to WebAssembly and published on GitHub Pages.
+    One project of note is <https://disassemb.ly>, an x86 disassembler written in Rust compiled to WebAssembly and published on GitHub Pages.
 
     Although limited, you're welcome to check me out on GitHub [@s1gtrap](https://github.com/s1gtrap).
 
