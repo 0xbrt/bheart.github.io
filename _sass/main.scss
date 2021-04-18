@@ -52,10 +52,10 @@ footer {
 
 section:nth-child(2n), footer {
   a {
-    color: shift-color($link-color, -50%);
+    color: shift-color($link-color, -80%);
 
     &:hover {
-      color: shift-color($link-hover-color, -50%);
+      color: shift-color($link-hover-color, -80%);
     }
   }
 }
