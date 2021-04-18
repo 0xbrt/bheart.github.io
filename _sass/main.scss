@@ -18,6 +18,9 @@ $headings-font-family: 'Inconsolata', monospace;
 
 $box-shadow: rgba(0, 0, 0, 0.1);
 
+$link-color:                 #f00; //red
+$link-hover-color:           #0f0; //green
+
 section {
   background: url($baseurl + "/assets/img/triangles.png") bottom right no-repeat;
   box-shadow: inset 0 8px 16px -8px $box-shadow,
