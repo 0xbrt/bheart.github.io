@@ -55,7 +55,7 @@ section:nth-child(2n), footer {
     color: lighten($link-color, 30%);
 
     &:hover {
-      color: lighten($link-color, 30%);
+      color: lighten($link-hover-color, 30%);
     }
   }
 }
