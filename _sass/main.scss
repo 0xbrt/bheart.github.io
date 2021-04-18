@@ -55,7 +55,7 @@ section:nth-child(2n), footer {
     color: #fff;
 
     &:hover {
-      color: shift-color(#fff, -50%);
+      color: shift-color(#fff, 50%);
     }
   }
 }
