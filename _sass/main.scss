@@ -3,8 +3,6 @@
 @import "bootstrap/scss/_functions";
 @import "bootstrap/scss/_variables";
 
-$white: #fefefe;
-
 $spacer: 1rem;
 $spacers: (
   0: 0,
@@ -16,6 +14,8 @@ $spacers: (
   6: $spacer * 5,
   7: $spacer * 12,
 );
+
+$white: #f0fefe;
 
 $font-family-base: 'Lora', serif;
 
