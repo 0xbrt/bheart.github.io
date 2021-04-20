@@ -12,7 +12,7 @@ sections:
   what-i-do: |
     ## What I do
 
-    Studies aside, currently in gear with <https://trifork.com/> -- time most of which has been spent on TypeScript, although with everything from Splunk API to Docker/Kubernetes pods sprinkled inbetween.
+    Studies aside, currently in gear with <https://trifork.com/> -- time most of which has been spent with TypeScript -- although with everything from Splunk API to Docker/Kubernetes pods sprinkled inbetween.
 
   what-ive-done: |
     ## What I've done
