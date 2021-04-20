@@ -12,7 +12,7 @@ $spacers: (
   4: $spacer * 1.5,
   5: $spacer * 3,
   6: $spacer * 5,
-  7: $spacer * 10,
+  7: $spacer * 12,
 );
 
 $font-family-base: 'Lora', serif;
@@ -65,7 +65,7 @@ section {
 
 section:nth-child(4n) {
   color: #fff;
-  background: #7b1e7a url($baseurl + "/assets/img/noise.png") no-repeat;;
+  background: #7b1e7a url($baseurl + "/assets/img/noise.png") no-repeat;
   box-shadow: none;
 }
 
@@ -86,10 +86,10 @@ footer {
 
 section:nth-child(2n), footer {
   a {
-    color: shift-color($link-hover-color, -20%);
+    color: shift-color($link-hover-color, -25%);
 
     &:hover {
-      color: shift-color($link-color, -20%);
+      color: shift-color($link-color, -25%);
     }
   }
 }
